@@ -26,15 +26,14 @@ wkhtmltopdf(options, input, output);
 var wkhtmltopdf = require('node-wkhtmltopdf');
 ```
 
-#### Basic:
+### Basic:
 ```JavaScript
 wkhtmltopdf(null, 'http://google.com', 'google.pdf');
 ```
 
-#### Using ExpressJS:
+### Using ExpressJS:
 ```JavaScript
 exports.pdf = function(req, res) {
-
   var connectSid = req.cookies['connect.sid'];
 
   var options = [
@@ -57,7 +56,6 @@ exports.pdf = function(req, res) {
     'Access-Control-Allow-Origin': '*',
     'Content-Disposition': 'inline; filename=order.pdf'
   });
-
 };
 ```
 
