@@ -1,0 +1,26 @@
+{
+  "name": "node-wkhtmltopdf",
+  "version": "1.0.0",
+  "description": "A simple wrapper for wkhtmltopdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francisdaigle/node-wkhtmltopdf.git"
+  },
+  "keywords": [
+    "wkhtmltopdf"
+  ],
+  "author": "Francis Daigle <francis@francisdaigle.com> (http://francisdaigle.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francisdaigle/node-wkhtmltopdf/issues"
+  },
+  "homepage": "https://github.com/francisdaigle/node-wkhtmltopdf",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "~4.1.0"
+  }
+}
